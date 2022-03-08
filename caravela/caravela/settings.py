@@ -24,7 +24,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
-]
+]+['shop.apps.ShopConfig',
+   ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
