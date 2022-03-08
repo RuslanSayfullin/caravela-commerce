@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
 ]+['shop.apps.ShopConfig',
+   'cart.apps.CartConfig',
    ]
 
 MIDDLEWARE = [
@@ -97,3 +98,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')    # путь в файловой �
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Ключ, по которому мы будем хранить данные корзины в сессии
+CART_SESSION_ID = 'cart'
