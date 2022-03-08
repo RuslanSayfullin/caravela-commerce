@@ -152,7 +152,7 @@ python3 manage.py runserver
 # Отладка Django — добавление Django Debug Toolbar в проект
 
 1) Установка библиотеки: pip install django-debug-toolbar;
-2) Добавление в INSTALLED_APPS: в settings.py добавьте debug_toolbar в раздел INSTALLED_APPS(после django.contrib.staticfiles).
+2) Добавление в INSTALLED_APPS: в settings.py добавьте debug_toolbar в раздел INSTALLED_APPS(после: django.contrib.staticfiles).
 Также убедитесь, что в файле settings.py присутствует следующая строка STATIC_URL = '/static/';
 3) Импорт в urls.py: Чтобы использовать Debug Toolbar, мы должны импортировать его пути. Следовательно, в urls.py добавьте код:
 # debug_tool/urls.py
