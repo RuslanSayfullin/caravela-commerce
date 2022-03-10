@@ -32,7 +32,9 @@ class Product(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ('name',)
+        ordering = ('id',)
+        verbose_name = 'product'
+        verbose_name_plural = 'products'
         index_together = (('id', 'slug'),)
 
     def __str__(self):
