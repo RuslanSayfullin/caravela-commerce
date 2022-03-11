@@ -103,3 +103,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Ключ, по которому мы будем хранить данные корзины в сессии
 CART_SESSION_ID = 'cart'
+
+# рассылка служебных сообщений на e-mail
+EMAIL_HOST = 'smtp.gmail.ru'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'caravelaecom@gmail.com'
+EMAIL_HOST_PASSWORD = '15081985_Kit_Mercer'
+DEFAULT_FROM_EMAIL = u'Уведомление Портала <caravelaecom@gmail.com>'
+# /рассылка служебных сообщений на e-mail
