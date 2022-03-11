@@ -27,6 +27,7 @@ INSTALLED_APPS = [
 ]+['shop.apps.ShopConfig',
    'cart.apps.CartConfig',
    'orders.apps.OrdersConfig',
+   'payment.apps.PaymentConfig',
    ]
 
 MIDDLEWARE = [
@@ -112,3 +113,17 @@ EMAIL_HOST_USER = 'caravelaecom@gmail.com'
 EMAIL_HOST_PASSWORD = '15081985_Kit_Mercer'
 DEFAULT_FROM_EMAIL = u'Уведомление Портала <caravelaecom@gmail.com>'
 # /рассылка служебных сообщений на e-mail
+
+# Настройки Braintree.
+BRAINTREE_MERCHANT_ID = 'XXX'   # ID продавца.
+BRAINTREE_PUBLIC_KEY = 'XXX'    # Публичный ключ.
+BRAINTREE_PRIVATE_KEY = 'XXX'   # Секретный ключ.
+
+from braintree import Configuration, Environment
+Configuration.configure(
+    Environment.Sandbox,
+    BRAINTREE_MERCHANT_ID,
+    BRAINTREE_PUBLIC_KEY,
+    BRAINTREE_PRIVATE_KEY
+)
+# /Настройки Braintree.
