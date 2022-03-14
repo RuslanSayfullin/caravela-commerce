@@ -31,7 +31,11 @@ def order_create(request):
             for item in cart:
                 OrderItem.objects.create(order=order, product=item['product'], price=item['price'], quantity=item['quantity'])
             # Очищаем корзину.
-            cart.clear()
+            cart.clear(commit=False)
+            if cart.coupon:
+                order.coupon = cart.coupon
+                order.discount = cart.coupon.discount
+            order.save()
             # Запуск асинхронной задачи.
             # order_created.delay(order.id)
             # Сохранение заказа в сессии.
