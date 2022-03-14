@@ -1,4 +1,5 @@
 import os
+from django.utils.translation import gettext_lazy as _
 
 from .settings_db_debug import DEBUG, DATABASES  # импорт настроект "режима отладки" и "базы данных"
 from pathlib import Path
@@ -34,6 +35,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -84,6 +86,17 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 LANGUAGE_CODE = 'ru'
+
+LANGUAGES = (
+    ('ru', _('Russian')),
+    ('en', _('English')),
+    ('es', _('Spanish')),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
+# /Internationalization
 
 TIME_ZONE = 'UTC'
 
