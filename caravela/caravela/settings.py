@@ -26,7 +26,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'rosetta',
-    'parler',
 ]+['shop.apps.ShopConfig',
    'cart.apps.CartConfig',
    'orders.apps.OrdersConfig',
@@ -98,21 +97,6 @@ LANGUAGES = (
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
 )
-
-# конфигурация перевода django-parler
-PARLER_LANGUAGES = {
-    None: (
-        {'code': 'en'},
-        {'code': 'es'},
-        {'code': 'ru'},
-    ),
-    'default': {
-        'fallback': 'ru',
-        'hide_untranslated': False,
-    }
-}
-# /конфигурация перевода django-parler
-
 # /Internationalization
 
 TIME_ZONE = 'UTC'
