@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="867ef770-e948-4e7a-aecf-32599e6e04ba" name="Changes" comment="" />
+    <list default="true" id="867ef770-e948-4e7a-aecf-32599e6e04ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/educa/courses/templates/manage/module/content_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educa/courses/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/educa/courses/templatetags/course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caravela/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/caravela/shop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/manage/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/manage/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
