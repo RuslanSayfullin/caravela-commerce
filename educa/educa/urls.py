@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
 
-from educa.courses.views import CourseListView
+from courses.views import CourseListView
 
 urlpatterns = [
     path('accounts/login/', auth_views.LoginView.as_view(), name='login'),
