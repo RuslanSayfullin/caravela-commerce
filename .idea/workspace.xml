@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867ef770-e948-4e7a-aecf-32599e6e04ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caravela-commerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caravela-commerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/templates/courses/course/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/templates/courses/course/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/educa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/educa/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/students/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/educa/courses/templates" />
       <recent name="$PROJECT_DIR$/educa/courses/templates/courses" />
       <recent name="$PROJECT_DIR$/educa/courses/static/cources" />
       <recent name="$PROJECT_DIR$/caravela/cart/templates/cart" />
