@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -13,6 +14,9 @@ SECRET_KEY = 'django-insecure-6--g8h$w7s5f=%sn6^&88wna6eqzaxgjffrihle)r&h=xk2%h_
 DEBUG = True
 
 ALLOWED_HOSTS = []
+INTERNAL_IPS = (
+    "127.0.0.1",
+)
 
 
 # Application definition
@@ -26,6 +30,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'courses.apps.CoursesConfig',
     'students.apps.StudentsConfig',
+    'debug_toolbar',
+    'embed_video',
 ]
 
 MIDDLEWARE = [
@@ -36,6 +42,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'educa.urls'
@@ -113,3 +120,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 from django.urls import reverse_lazy
 LOGIN_REDIRECT_URL = reverse_lazy('student_course_list')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
