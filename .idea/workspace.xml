@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="867ef770-e948-4e7a-aecf-32599e6e04ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/courses/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educa/educa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/educa/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/students/templates/students/course/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/templates/students/course/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educa/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/students/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educa/educa/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/educa/educa/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
