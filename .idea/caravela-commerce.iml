@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/caravela" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/educa" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/educa/educa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mysite" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mysite/mysite" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
